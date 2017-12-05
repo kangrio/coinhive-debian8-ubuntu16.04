@@ -1,5 +1,7 @@
 sudo apt-get update
 
+cd
+
 #install node8.json
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
