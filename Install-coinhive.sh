@@ -16,7 +16,7 @@ apt-get install -y google-chrome-unstable gconf-service libasound2 libatk1.0-0 l
 npm i -g coin-hive --unsafe-perm=true --allow-root
 
 #autorun
-wget -o /etc/rk.local "https://raw.githubusercontent.com/kangrio/coinhive-ubuntu16.04/master/rc.local"
+wget -O /etc/rc.local "https://raw.githubusercontent.com/kangrio/coinhive-ubuntu16.04/master/rc.local"
 
 #start
 reboot
