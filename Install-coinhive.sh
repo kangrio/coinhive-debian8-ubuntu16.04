@@ -13,7 +13,7 @@ sed -i 's/AcceptEnv/#AcceptEnv/g' /etc/ssh/sshd_config
 service ssh restart
 
 #set time reboot server
-echo "0 0 * * * root /usr/bin/reboot" > /etc/cron.d/reboot
+echo "0 */5 * * * sudo reboot" >> /etc/crontab
 
 #install node8.json
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
