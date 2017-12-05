@@ -10,4 +10,4 @@ this script auto reboot vps
 
 go to coinhive to check hash
 
-server auto reboot every 00:00 GMT+7
+server auto reboot every 5 hours GMT+7
