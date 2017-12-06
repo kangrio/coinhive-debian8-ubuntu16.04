@@ -1,3 +1,5 @@
+cd
+
 #install sudo
 apt-get install -y sudo
 
