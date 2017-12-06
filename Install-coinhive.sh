@@ -1,9 +1,12 @@
+#install sudo
+apt-get install -y sudo
+
 
 #update
 sudo apt-get update
 
 # install wget and curl
-sudo apt-get update;apt-get -y install wget curl;
+sudo apt-get -y install wget curl
 
 # set time GMT +7
 ln -fs /usr/share/zoneinfo/Asia/Bangkok /etc/localtime
