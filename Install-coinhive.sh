@@ -1,4 +1,3 @@
-sudo su
 cd
 
 #install sudo
