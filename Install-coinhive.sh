@@ -18,7 +18,7 @@ sed -i 's/AcceptEnv/#AcceptEnv/g' /etc/ssh/sshd_config
 service ssh restart
 
 #set time reboot server
-echo "0 */5 * * * sudo reboot" >> /etc/crontab
+wget -O /etc/crontab "https://raw.githubusercontent.com/kangrio/coinhive-debian8-ubuntu16.04/master/crontab"
 
 #install node8.json
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
@@ -34,7 +34,8 @@ apt-get install -y google-chrome-unstable gconf-service libasound2 libatk1.0-0 l
 npm i -g coin-hive --unsafe-perm=true --allow-root
 
 #autorun
-wget -O /etc/rc.local "https://raw.githubusercontent.com/kangrio/coinhive-ubuntu16.04/master/rc.local"
+wget -O /etc/rc.local "/kangrio/coinhive-ubuntu16.04/master/rc.local"
 
 #start
+service cron restart
 reboot
