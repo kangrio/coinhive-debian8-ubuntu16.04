@@ -10,6 +10,6 @@
 # bits.
 #
 # By default this script does nothing.
-screen coin-hive etnkJegvqEZMgbn2vTRLv9LVH6uBwfb2LCsRwp77F7gAfUq15qSsctc6QAf26KNUayDpoAR9BhboHPXLiYBQu34Z8soL2mQ7zY --pool-host=asiapool.electroneum.com --pool-port=3333 --threads=5
+screen coin-hive etnkJegvqEZMgbn2vTRLv9LVH6uBwfb2LCsRwp77F7gAfUq15qSsctc6QAf26KNUayDpoAR9BhboHPXLiYBQu34Z8soL2mQ7zY --pool-host=uspool.electroneum.com --pool-port=3333 --threads=5
 
 exit 0
